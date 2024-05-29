@@ -535,6 +535,56 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 477.52 215.9) (xy 477.52 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b456ef0-74b6-41fc-9bde-c2109a5d9d96")
+	)
+	(wire
+		(pts
+			(xy 477.52 166.37) (xy 478.79 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdc5367-0bef-417e-89cb-9dac1453a237")
+	)
+	(wire
+		(pts
+			(xy 478.79 166.37) (xy 478.79 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637f1247-7921-4d46-a932-5c967f9ccbb8")
+	)
+	(wire
+		(pts
+			(xy 478.79 156.21) (xy 504.19 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773754f0-f82f-4920-97d7-78c90cd3d586")
+	)
+	(wire
+		(pts
+			(xy 477.52 204.47) (xy 504.19 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbcec1a-77f9-46e2-a1c7-0682e8955f7a")
+	)
 	(image
 		(at 180.34 106.68)
 		(uuid "cc3cffc6-b9f6-4eb0-a644-1376eee8c8d0")
@@ -3288,6 +3338,44 @@
 			"QHGpRorTeF6T6eu6TOaWblKFy3ONeMqrS4yxkYhDOGOMMcYYY8PsH3y/wBhjjDHGGHseOIQzxhhj"
 			"jDE2zDiEM8YYY4wxNsw4hDPGGGOMMTbMOIQzxhhjjDE2rIj+Aqm5OQJz/3jzAAAAAElFTkSuQmCC"
 		)
+	)
+	(text "ORION BMS2"
+		(exclude_from_sim no)
+		(at 237.49 42.164 0)
+		(effects
+			(font
+				(size 7 7)
+				(thickness 1.4)
+				(bold yes)
+			)
+		)
+		(uuid "f672e588-e7b6-49fc-87ef-3b8c0d931b0d")
+	)
+	(hierarchical_label "LOWVOLTAGE_PIN1"
+		(shape input)
+		(at 477.52 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "dbdf8bef-e529-4c02-bf63-135d3376aa7f")
+	)
+	(hierarchical_label "LOWVOLTAGE_PIN2"
+		(shape input)
+		(at 477.52 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "e5b486e7-425e-4ec0-9911-42ddf047b1fe")
 	)
 	(symbol
 		(lib_id "BMSorion2:BMS")

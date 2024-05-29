@@ -6326,6 +6326,18 @@
 		)
 		(uuid "86440365-91d3-47cd-b48c-6c248a1fab0a")
 	)
+	(hierarchical_label "HIGHVOLTAGE_PR"
+		(shape input)
+		(at 92.71 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bf836e7-a28d-4da2-a8fc-fc18a830af11")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 231.14 135.89 90)

@@ -910,6 +910,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 185.42) (xy 182.88 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c14e0f-9466-41dc-98dd-c079d774018a")
+	)
+	(wire
+		(pts
 			(xy 92.71 121.92) (xy 92.71 129.54)
 		)
 		(stroke
@@ -1170,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 190.5) (xy 243.84 190.5)
+			(xy 224.79 189.23) (xy 229.87 189.23)
 		)
 		(stroke
 			(width 0)
@@ -1250,6 +1260,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 187.96) (xy 182.88 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb8290a-10b0-488b-b714-56ac093da82d")
+	)
+	(wire
+		(pts
 			(xy 228.6 55.88) (xy 217.17 55.88)
 		)
 		(stroke
@@ -1290,6 +1310,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 191.77) (xy 229.87 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ead282-987b-4b3f-8b1f-1c28c0df63a5")
+	)
+	(wire
+		(pts
 			(xy 87.63 118.11) (xy 87.63 121.92)
 		)
 		(stroke
@@ -1310,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 187.96) (xy 243.84 187.96)
+			(xy 222.25 186.69) (xy 229.87 186.69)
 		)
 		(stroke
 			(width 0)
@@ -1954,6 +1984,19 @@
 		)
 		(uuid "07adfd2f-4660-4e60-94fc-0c25fcc04bb7")
 	)
+	(hierarchical_label "LV+_AMS1"
+		(shape input)
+		(at 176.53 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "12e522f9-65e9-486c-bb87-09bc7cd4dea2")
+	)
 	(hierarchical_label "LV+_BSPD"
 		(shape input)
 		(at 93.98 191.77 180)
@@ -1969,7 +2012,7 @@
 	)
 	(hierarchical_label "LV+_PRECHARGE"
 		(shape input)
-		(at 236.22 187.96 180)
+		(at 222.25 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2004,6 +2047,19 @@
 			(justify right)
 		)
 		(uuid "5fbcd789-c877-43cb-b38d-0f660d5a3f1a")
+	)
+	(hierarchical_label "LV+_AMS2"
+		(shape input)
+		(at 176.53 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "61cc456c-e8b3-46ae-8821-d76f81928a03")
 	)
 	(hierarchical_label "HV-_IMD"
 		(shape input)
@@ -2072,7 +2128,7 @@
 	)
 	(hierarchical_label "LV_GND_PRECHARGE"
 		(shape input)
-		(at 238.76 190.5 180)
+		(at 224.79 189.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2108,6 +2164,19 @@
 			(justify left)
 		)
 		(uuid "e3435d8f-3cae-4d57-a0b2-963a945a37c4")
+	)
+	(hierarchical_label "HV_PRECHARGE"
+		(shape input)
+		(at 224.79 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "faaf86b4-d896-4fec-b070-d071221a7690")
 	)
 	(hierarchical_label "LV_GND_BSPD"
 		(shape input)
@@ -3163,7 +3232,7 @@
 		(size 17.78 33.02)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.5)
 			(type solid)
 		)
 		(fill
@@ -3228,11 +3297,11 @@
 		)
 	)
 	(sheet
-		(at 243.84 181.61)
+		(at 229.87 180.34)
 		(size 17.78 34.29)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.5)
 			(type solid)
 		)
 		(fill
@@ -3240,7 +3309,7 @@
 		)
 		(uuid "7505a14c-2068-46de-aa89-0057f17be121")
 		(property "Sheetname" "Precharge"
-			(at 243.84 180.5334 0)
+			(at 229.87 179.2634 0)
 			(effects
 				(font
 					(size 2 2)
@@ -3250,7 +3319,7 @@
 			)
 		)
 		(property "Sheetfile" "precharge.kicad_sch"
-			(at 243.84 216.4846 0)
+			(at 229.87 215.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3328,7 @@
 			)
 		)
 		(pin "LV+" input
-			(at 243.84 187.96 180)
+			(at 229.87 186.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3338,7 @@
 			(uuid "bccc7b87-a31f-41fb-b13e-acf2422b7114")
 		)
 		(pin "LV_GND" input
-			(at 243.84 190.5 180)
+			(at 229.87 189.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,6 +3346,16 @@
 				(justify left)
 			)
 			(uuid "61880f1c-ec71-4374-a0b0-658bf32ae846")
+		)
+		(pin "HIGHVOLTAGE_PR" input
+			(at 229.87 191.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13e5b8e0-0d71-40f1-bb00-484a2fa7b653")
 		)
 		(instances
 			(project "LV_FINAL"
@@ -3291,7 +3370,7 @@
 		(size 17.78 34.29)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.5)
 			(type solid)
 		)
 		(fill
@@ -3406,11 +3485,11 @@
 		)
 	)
 	(sheet
-		(at 194.31 180.34)
-		(size 17.78 35.56)
+		(at 182.88 180.34)
+		(size 19.05 35.56)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.5)
 			(type solid)
 		)
 		(fill
@@ -3418,7 +3497,7 @@
 		)
 		(uuid "feb0620f-61a6-4867-9481-eff128958290")
 		(property "Sheetname" "AMS"
-			(at 194.31 179.2634 0)
+			(at 182.88 179.2634 0)
 			(effects
 				(font
 					(size 2 2)
@@ -3428,13 +3507,33 @@
 			)
 		)
 		(property "Sheetfile" "AMS.kicad_sch"
-			(at 194.31 216.4846 0)
+			(at 182.88 216.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "LOWVOLTAGE_PIN2" input
+			(at 182.88 185.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2665c95f-c68b-43de-9484-470424a3c2fe")
+		)
+		(pin "LOWVOLTAGE_PIN1" input
+			(at 182.88 187.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61e6b95e-ce4e-40d4-86b9-f600abef3531")
 		)
 		(instances
 			(project "LV_FINAL"
